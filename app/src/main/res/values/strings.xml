@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DAGViewPager</string>
+    <string name="what_s_your_age">What\'s your Age?</string>
+    <string name="no_answer">Answer this question to continue</string>
+</resources>

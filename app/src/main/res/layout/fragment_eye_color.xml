@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/tool_bar"/>
+
+    <TextView
+        style="@style/header"
+        android:text="What eye color do you have?"/>
+
+    <RadioGroup
+        android:id="@+id/eyeColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <RadioButton
+            android:id="@+id/brown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brown"/>
+
+        <RadioButton
+            android:id="@+id/hazel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hazel"/>
+
+        <RadioButton
+            android:id="@+id/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue"/>
+
+        <RadioButton
+            android:id="@+id/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green"/>
+
+        <RadioButton
+            android:id="@+id/silver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silver"/>
+
+        <RadioButton
+            android:id="@+id/amber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amber"/>
+    </RadioGroup>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <include layout="@layout/next"/>
+</LinearLayout>
